@@ -1,0 +1,10 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.table_header{
+  background-color: #DBDBDB;
+}
+.table_footer{
+  background-color: $primary;
+  color: $white;
+}

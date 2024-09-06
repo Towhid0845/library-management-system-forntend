@@ -1,0 +1,10 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.notification{
+  ul{
+    li{
+      background-color: #f2f2f2;
+    }
+  }
+}

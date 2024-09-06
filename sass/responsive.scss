@@ -1,0 +1,221 @@
+@media (max-width:1399.98px) {
+
+  // header part start
+  .header_area .navbar .navbar-nav .nav-item {
+    margin-left: 18px;
+  }
+
+  // header part end
+  // login page start
+
+  .login_area .login_info .overlay .text .title {
+    font-size: 60px;
+  }
+
+  .login_area .login_info .overlay {
+    padding: 200px 40px;
+  }
+
+  // login page end
+  // dashboard page start
+  .dashboard_short_info .info_item .text .title {
+    font-size: 15px;
+  }
+
+  .dashboard_short_info .info_item .text .number {
+    font-size: 19px;
+  }
+
+  // dashboard page end
+  // footer part start
+  .footer_widget.address {
+    padding-left: 105px;
+    padding-right: 49px;
+  }
+
+  // footer part end
+}
+
+@media (max-width:1199.98px) {
+
+  // header part start
+  .header_area .navbar .menu_right_option .notification {
+    margin-right: 24px;
+  }
+
+  .header_area .navbar .menu_right_option {
+    margin-left: 24px;
+  }
+
+  .header_area .navbar .navbar-nav .nav-item {
+    margin-left: 15px;
+  }
+
+  // header part end
+  // login page start
+  .login_area .login_form {
+    padding: 80px 30px;
+  }
+
+  .login_area .login_form .logo {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .login_area .login_info .overlay .text p {
+    padding-right: 0px;
+  }
+
+  .login_area .login_info .overlay .text .title {
+    font-size: 50px;
+  }
+
+  // login page end
+  // dashboard page start
+  .dashboard_area {
+    padding: 15px 0 40px 0;
+  }
+
+  .control_sidebar_menu {
+    padding-bottom: 15px;
+
+    button {
+      font-size: 15px;
+      font-weight: 600;
+      background-color: transparent;
+      border: 0;
+      background-color: #009AFE;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+  }
+
+  .mobile_dashboard_sidebar {
+    width: 320px;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: -320px;
+    z-index: 999;
+    overflow-y: scroll;
+    padding: 0 !important;
+    transition: all 0.3s ease;
+
+    .dashboard_left_sidebar {
+      border-radius: 0;
+      position: relative;
+
+      .close_dashboard_sidebar {
+        button {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: #009AFE;
+          color: #fff;
+          border: 0;
+          padding: 6px 13px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .show_mobile_sidebar {
+    left: 0 !important;
+  }
+
+  // dashboard page end
+  // footer part start
+  .footer_widget.address {
+    padding-left: 50px;
+    padding-right: 28px;
+  }
+
+  // footer part end
+
+}
+
+@media (max-width:991.98px) {
+
+  // header part start
+  .header_area {
+    padding: 8px 0;
+  }
+
+  .menu_right_option {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .menu_right_option .notification a {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .menu_right_option .user .user_image .image {
+    border-color: #000000;
+  }
+
+  .menu_right_option .user .user_image .text {
+    color: #000000;
+    margin-left: 12px;
+  }
+
+  .menu_right_option .user .user_dropdown {
+    top: 10px !important;
+  }
+
+  // header part end
+  // login page start
+  .login_area .login_info {
+    display: none;
+  }
+
+  .login_area .login_form {
+    margin: 0 auto;
+  }
+
+  // login page end
+  // dashboard page start
+  .dashboard_short_info .info_item .text .title {
+    font-size: 18px;
+  }
+
+  .dashboard_short_info .info_item .text .number {
+    font-size: 22px;
+  }
+
+  // dashboard page end
+  // footer part start
+  .footer_widget {
+    margin-top: 40px;
+  }
+
+  .footer_widget.address {
+    padding-left: 0;
+  }
+
+  // footer part end
+}
+
+@media (max-width:767.98px) {
+  .search_box__ .buttons__ {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width:575.98px) {
+  .dashboard_right_content {
+    padding: 14px;
+  }
+
+  .dashboard_info_widget {
+    padding: 14px;
+  }
+
+  .e_book_details .banner_info .text .title {
+    font-size: 24px;
+  }
+}

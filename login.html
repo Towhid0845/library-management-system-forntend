@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes">
+  <title>Library Management System</title>
+  <link rel="shortcut icon" href="images/Fevicon.png" type="image/x-icon">
+  <!--all css link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawsome/css/all.min.css">
+  <link rel="stylesheet" href="fontawsome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/select2.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+
+<body>
+  <!-- header area start -->
+  <header class="header_area">
+    <nav class="navbar navbar-expand-lg d-none d-lg-block">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="logo" width="280">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu_right_option d-flex">
+          <div class="notification">
+            <a href="notification.html" class="position-relative">
+              <i class="fas fa-bell"></i>
+              <sup class="position-absolute">3</sup>
+            </a>
+          </div>
+          <div class="user position-relative dropdown">
+            <div class="user_image d-flex dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="image">
+                <img src="images/user.png" alt="user" class="img-fluid w-100">
+              </div>
+              <div class="text">
+                <h5>Rakibul Hasan <i class="fas fa-chevron-down"></i></h5>
+                <span>Teacher</span>
+              </div>
+            </div>
+            <div class="user_dropdown dropdown-menu">
+              <ul class="list-unstyled">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Log out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- mobile menu start -->
+    <div class="mobile-menu-area d-block d-lg-none">
+      <div class="mobile-topbar">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="logo">
+              <a href="index.html">
+                <img src="images/logo.png" alt="logo" width="230">
+              </a>
+            </div>
+            <div class="bars">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-main">
+        <div class="close-mobile-menu"><i class="fas fa-times"></i></div>
+        <div class="menu-body">
+          <div class="menu-list">
+            <ul class="list-unstyled">
+              <li class="sub-mobile-menu">
+                <a href="#">Home</a>
+              </li>
+              <li class="sub-mobile-menu">
+                <a href="#">About Me</a>
+              </li>
+              <li class="sub-mobile-menu">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="menu_right_option d-flex">
+          <div class="notification">
+            <a href="notification.html" class="position-relative">
+              <i class="fas fa-bell"></i>
+              <sup class="position-absolute">3</sup>
+            </a>
+          </div>
+          <div class="user position-relative dropdown">
+            <div class="user_image d-flex dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="image">
+                <img src="images/user.png" alt="user" class="img-fluid w-100">
+              </div>
+              <div class="text">
+                <h5>Rakibul Hasan <i class="fas fa-chevron-down"></i></h5>
+                <span>Teacher</span>
+              </div>
+            </div>
+            <div class="user_dropdown dropdown-menu">
+              <ul class="list-unstyled">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Log out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header area end -->
+  <!-- login area start -->
+  <section class="login_area">
+    <div class="d-flex">
+      <div class="login_info" style="background: url(images/banner.jpg)">
+        <div class="overlay">
+          <div class="text">
+            <h3 class="welcome">Welcome to</h3>
+            <h2 class="title"><span>WUB</span> Digital Library </h2>
+            <p>World University of Bangladesh (WUB) established under the private University Act, 1992 (amended in
+              1998), approved and recognized by the Ministry of Education, Government of the People's Republic of
+              Bangladesh and the University Grants Commission (UGC) of Bangladesh is a leading university for
+              utilitarian education.</p>
+          </div>
+        </div>
+      </div>
+      <div class="login_form">
+        <div class="logo">
+          <img src="images/logo.png" alt="logo" class="img-fluid w-100">
+        </div>
+        <div class="top_info text-center">
+          <h3 class="title">Login</h3>
+          <h5 class="sub_title">Sign Into Your Account</h5>
+        </div>
+        <div class="main_form">
+          <form action="dashboard.html">
+            <div class="input_groups">
+              <label for="#">Email Address <sup class="text-danger">*</sup></label>
+              <input type="email" placeholder="Email address">
+              <!-- <small class="text-danger mt-1">Email is required</small> -->
+            </div>
+            <div class="input_groups">
+              <label for="#">Password</label>
+              <div class="input_box position-relative">
+                <input type="password" placeholder="Password">
+                <i class="fas fa-eye" aria-hidden="true"></i>
+                <!-- <small class="text-danger mt-1">Password is required</small> -->
+              </div>
+            </div>
+            <div class="forget">
+              <a href="forget.html">Forget Your Password?</a>
+            </div>
+            <div class="button_goups">
+              <button type="submit">Login Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- login area end -->
+
+  <!-- footer part start -->
+  <a id="button"><i class="fas fa-angle-up"></i></a>
+  <footer class="footer_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="footer_widget">
+            <img src="images/logo.png" alt="logo" class="img-fluid">
+            <p>World University of Bangladesh (WUB) established under the private University Act, 1992 (amended in
+              1998), approved and recognized by the Ministry of Education, Government of the People's Republic of
+              Bangladesh and the University Grants Commi...</p>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="footer_widget address">
+            <h3 class="footer_title">Contact Us</h3>
+            <ul class="list-unstyled">
+              <li>
+                <i class="far fa-building"></i>
+                <span>Suit # 07, Rose world Building, Street # 02, AT246T Manchester</span>
+              </li>
+              <li>
+                <i class="fas fa-phone-square-alt"></i>
+                <span>
+                  <a href="tel:0800 12345 - 678 - 89">0800 12345 - 678 - 89</a>
+                  <a href="tel:+4 1234 - 4567 - 67">+4 1234 - 4567 - 67</a>
+                </span>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>
+                  <a href="mailto:support@domain.com">support@domain.com</a>
+                  <a href="mailto: info@domain.com">info@domain.com</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer_widget">
+            <h4 class="footer_title">Important links</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">Terms of Use</a>
+              </li>
+              <li>
+                <a href="#">Privacy</a>
+              </li>
+              <li>
+                <a href="#">Cookies</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer_btm">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="text">
+              <p>@ Copyright. All right reserved by: <b>WUB</b></p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text text-lg-end">
+              <p>Developed by: <a href="https://www.nogorsolutions.com/" target="_blank">Nogor Solutions Limited</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer part end -->
+
+
+  <!-- all js link -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/echarts.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

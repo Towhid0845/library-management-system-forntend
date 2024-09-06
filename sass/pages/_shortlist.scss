@@ -1,0 +1,43 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.faq-body {
+  background: $white;
+  border-radius: 30px;
+
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .accordion-item {
+    border: 0;
+    margin: 10px 0;
+    background-color: #f2f2f2;
+  }
+
+  .accordion-body {
+    background-color: $white;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+    color: $primary;
+  }
+
+  .accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f2f2f2;
+  }
+
+  .accordion-button::after {
+    background-image: url(../images/plus-solid.svg);
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/dash-lg.svg);
+  }
+}

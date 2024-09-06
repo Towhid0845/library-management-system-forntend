@@ -1,0 +1,46 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.advance_search {
+  .search_widget {
+    .input_title {
+      @include font(18px, 500);
+      margin-bottom: 10px;
+    }
+
+    .search_box__ {
+    }
+
+    .input_checkbox {
+      border: 1px solid $border;
+      border-radius: 5px;
+      padding: 20px 24px;
+
+      span{
+        display: block !important;
+      }
+
+      .form-check-input {
+        border-color: #222 !important;
+      }
+
+      label {
+        cursor: pointer;
+      }
+    }
+
+    .adv_search {
+      background-color: $primary;
+      border: 0;
+      width: 100%;
+      padding: 14px 30px;
+      border-radius: 5px;
+      color: $white;
+      @include font(18px, 600);
+
+      &:hover {
+        background-color: $black;
+      }
+    }
+  }
+}

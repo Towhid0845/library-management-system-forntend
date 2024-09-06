@@ -1,0 +1,34 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.e_book_item {
+  .image{
+    overflow: hidden;
+    border-radius: 5px;
+    img{
+      transition: $transition;
+    }
+    &:hover{
+      img{
+        transform: scale(1.05);
+      }
+    }
+  }
+  .text {
+    margin-top: 14px;
+
+    .title {
+      @include font(22px, 600);
+      color: $black;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+
+    .author {
+      margin-top: 8px;
+      display: block;
+    }
+  }
+}

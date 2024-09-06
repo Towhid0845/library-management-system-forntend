@@ -1,0 +1,119 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.search_box__ {
+  .search_field {
+    flex-grow: 1;
+
+    .search_input {
+      flex-grow: 1;
+      margin-left: 24px;
+
+      button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 4px;
+        border: 0;
+        background-color: $primary;
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        border-radius: 80px;
+        color: $white;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .buttons__ {
+    margin-left: 40px;
+  }
+}
+
+.record_btn_info {
+
+  .hold,
+  .save {
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-top: 12px;
+    i{
+      color: $primary;
+    }
+  }
+}
+
+table {
+  td {
+    vertical-align: middle;
+  }
+
+  th {
+    cursor: pointer;
+    position: relative;
+
+    i {
+      position: absolute;
+      font-size: 11px;
+      color: #5a5a5a;
+      margin-left: 5px;
+    }
+
+    .down {
+      top: 15px;
+    }
+
+    .up {
+      top: 15px;
+    }
+  }
+
+  .record_info {
+    .title {
+      @include font(18px, 600);
+      color: $primary;
+      margin-bottom: 8px;
+    }
+
+    .by {
+      margin-bottom: 10px;
+
+      span {
+        color: $primary;
+      }
+    }
+
+    p {
+      margin-top: 0px;
+      font-size: 15px;
+    }
+
+    .record_btn_info {}
+  }
+}
+
+
+.select2-container .select2-selection--single {
+  height: 45px;
+  padding: 0 10px;
+  background-color: #f2f2f2;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 45px;
+  right: 5px;
+}
+
+.select2.select2-container {
+  width: 100% !important;
+}

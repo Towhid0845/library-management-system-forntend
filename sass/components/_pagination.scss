@@ -1,0 +1,35 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+
+/* pagination area */
+
+.pagination ul li {
+  display: inline-block;
+}
+
+.pagination ul li a {
+  background-color: $white;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  color: $black;
+  border: 1px solid rgba(198, 187, 159, 0.5);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 4px;
+}
+
+.pagination ul li a:hover {
+  background-color: $primary;
+  color: $white;
+  border-color: $white;
+}
+
+.pagination ul li.active a {
+  background-color: $primary;
+  color: $white;
+  border-color: $white;
+}

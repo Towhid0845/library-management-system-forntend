@@ -1,0 +1,6 @@
+@mixin line_limit ($number_of_line) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $number_of_line;
+  -webkit-box-orient: vertical;
+}
